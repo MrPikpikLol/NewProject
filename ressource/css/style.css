@@ -288,9 +288,9 @@ ul.social-icons li.pinterest:hover {
     right: 0;
     bottom: 0;
     z-index: 9999;
-    background-image: -moz-linear-gradient(to bottom, #a1ffce, #faffd1);
-    background-image: -webkit-linear-gradient(to bottom, #a1ffce, #faffd1);
-    background-image: -ms-linear-gradient(to bottom, #a1ffce, #faffd1);
+    background-image: -moz-linear-gradient(to right, #4da0b0, #d39d38);
+    background-image: -webkit-linear-gradient(to right, #4da0b0, #d39d38);
+    background-image: -ms-linear-gradient(to right, #4da0b0, #d39d38);
 }
 
 .preloader .spinner {
@@ -386,7 +386,7 @@ ul.social-icons li.pinterest:hover {
 }
 
 .appy-menu ul li a {
-    color: #fff !important;
+    color: #db6d40 !important;
     font-size: 12px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -425,7 +425,7 @@ ul.social-icons li.pinterest:hover {
     position: absolute;
     height: 25px;
     border-radius: 20px;
-    background: #ffffff;
+    background: #18d496;
     z-index: -1;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -444,7 +444,7 @@ ul.social-icons li.pinterest:hover {
     position: absolute;
     height: 25px;
     border-radius: 20px;
-    background: #ffffff;
+    background: #18d496;
     z-index: -1;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -464,7 +464,7 @@ ul.social-icons li.pinterest:hover {
 .appy-menu .navbar-nav>.active>a:focus,
 .appy-menu .navbar-nav>.active>a:hover {
     background: none;
-    color: #bf095d !important;
+    color: #db6d40 !important;
 }
 
 .appy-menu .navbar-brand {
@@ -474,7 +474,7 @@ ul.social-icons li.pinterest:hover {
 }
 
 .appy-menu ul li a:hover {
-    color: #bf095d !important;
+    color: #db6d40 !important;
 }
 
 .appy-menu .navbar-brand {
@@ -653,11 +653,8 @@ ul.social-icons li.pinterest:hover {
 }
 
 /*-----------end nav bar---------------------*/
-/*--------------start main title-------------*/
 
-/*--------------end main title---------------*/
 /*--------------12. START VIDEO SECTION------*/
-
 #video {
     position: relative;
 }
