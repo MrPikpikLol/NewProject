@@ -1,6 +1,12 @@
-/*------------------------------
-    02. START PRELOADER STYLE
-------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/*----------start preloader-----------*/
 
 .preloader {
     position: fixed;
@@ -26,8 +32,8 @@
 .preloader .spinner .cube1,
 .preloader .spinner .cube2 {
     background-color: #fff;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 0;
     left: 0;
@@ -78,3 +84,6 @@
     }
 }
 /*--------------end preloader----------------*/
+/*--------------start main title-------------*/
+
+/*--------------end main title---------------*/
