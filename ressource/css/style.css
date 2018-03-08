@@ -114,7 +114,7 @@ a:hover {
     margin-bottom: 50px;
     text-transform: uppercase;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 5px;
 }
 
@@ -126,8 +126,8 @@ a:hover {
     font-size: 16px;
 }
 
-.section-heade.white h3,
-.section-heade.white p {
+.section-heade.white h3
+{
     color: #fff;
 }
 
@@ -618,12 +618,12 @@ ul.social-icons li.pinterest:hover {
 #home_banner h3 {
     font-size: 120px;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 
 #home_banner p {
-    font-size: 22px;
+    font-size: 35px;
     color: #fff;
     font-weight: 300;
     margin: 20px 0 30px;
@@ -697,7 +697,7 @@ ul.social-icons li.pinterest:hover {
 }--*/
 
 #reservez .price-table.feature {
-    color: #295434;
+    color: #25a499;
     border-color: #09bf73;
     margin-top: 0;
 }
