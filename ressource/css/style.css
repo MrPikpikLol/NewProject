@@ -581,6 +581,9 @@ ul.social-icons li.pinterest:hover {
 #video a {
     display: inline-block;
 }
+.playbtn{
+  margin-bottom: 100px;
+}
 /*--------------end video-----------------------*/
 
 
