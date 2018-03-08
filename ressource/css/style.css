@@ -575,3 +575,29 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
 /*-------------end price section------------------*/
+/*-------------formulaire question----------------*/
+.contact-form{
+  margin: 0 auto;
+}
+input[type=text],[type=email], select, textarea{
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #17C089;
+  margin-bottom: 15px;
+}
+textarea{
+  height: 100px;
+}
+input[type=submit],[type=reset]{
+  font-size: 35px;
+
+  padding: 10px 30px;
+
+  text-decoration: none;
+
+  border: 2px solid #09bf73;
+  border-radius: 10px;
+}
+/*---------end formulaire question----------------*/
+/*--------------footer-----------*/

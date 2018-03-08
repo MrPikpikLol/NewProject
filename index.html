@@ -66,7 +66,6 @@
         <!-- End Nav -->
         <!-- Start Home Banner -->
         <section id="home_banner" class="home-slide" style="background-image: url('ressource/img/newyork1.jpg'); background-size: cover; background-position: 50% 50%;" alt="new-york">
-            <div class="overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -86,7 +85,6 @@
       <!-- End Header -->
       <!-- Video -->
         <section id="video" class="padding-100" style="background-image: url('ressource/img/fondvideo.jpg'); background-size: cover; background-position: 50% 50%;">
-                <div class="overlay"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 section-heade white text-center">
@@ -103,7 +101,6 @@
         <!-- End Video-->
         <!-- Galerie-->
         <section id="galerie" class="padding-100" style="background-image: url('ressource/img/fondphoto.jpg'); background-size: cover; background-position: 50% 50%;">
-            <div class="overlay"></div>
             <div class="container">
                 <div class="row">
                   <div class="col-md-12 section-heade white text-center">
@@ -199,7 +196,71 @@
           </div>
         </section>
     <!-- End Price Section -->
+    <!-- contact -->
+    <section id="fromulaire" class="padding-100">
+    <div class="container">
+      <div class="row">
+      <h2>vous avez des questions, nous avons des réponses</h2>
+    </div>
+    <div class="row">
+      <form method="post" action="#" class="contact-form">
+        <div class="row">
+          <div class="col-md-5">
+            <label for="name">Nom</label>
+          </div>
+          <div class="col-md-7">
+            <input type="text" id="name" required/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-md-7">
+            <input type="text" id="email" required/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label for="destinataire">Quels services souhaites-tu contacter?</label>
+          </div>
+          <div class="col-md-7">
+            <select id="destinataire-select">
+              <option value="">selectionner un service</option>
+              <option value="client">service clients</option>
+              <option value="facture">service facture</option>
+              <option value="sav">sevice sav</option>
+              <option value="tech">service technique</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label>Recevoir notre newsletter</label>
+          </div>
+          <div class="col-md-7">
+            <input type="checkbox" id="newsletter" checked/>Oui je m'abonne.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label>Rédiger votre question</label>
+          </div>
+          <div class="col-md-7">
+            <textarea id="commentaire">Votre message...</textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="envoyer"/>
+          <input type="reset"/>
+        </div>
+      </form>
+    </div>
+  </div>
+    <!-- end contact -->
+    <!-- footer -->
 
+    <!-- end footer -->
 
 
 
