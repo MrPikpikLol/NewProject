@@ -53,18 +53,18 @@ a:hover {
     background: #09bf73;
     color: #fff;
 }
-.btn-default.colored {
+.btn-default.reserv {
     color: #09bf73;
     border-color: #09bf73;
 }
 .btn-default.colored:hover {
     color: #fff;
 }
-.btn-default.blue {
+.btn-default.green {
     color: #09bf73;
     border-color: #09bf73;
 }
-.btn-default.blue:hover {
+.btn-default.green:hover {
     color: #fff;
     background: #09bf73;
 }
@@ -108,47 +108,7 @@ a:hover {
 {
     color: #fff;
 }
-ul.social-icons {
-    margin-left: 0px;
-}
-ul.social-icons li {
-    border-radius: 50%;
-    border: 2px solid #fff;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 25px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-ul.social-icons li i {
-    font-size: 14px;
-    color: #fff;
-}
-ul.social-icons li.facebook:hover {
-    border-color: #3B5A9A;
-    background: #3B5A9A;
-}
-ul.social-icons li.twitter:hover {
-    border-color: #54ABF0;
-    background: #54ABF0;
-}
-ul.social-icons li.google-plus:hover {
-    border-color: #DD4B3E;
-    background: #DD4B3E;
-}
-ul.social-icons li.linkedin:hover {
-    border-color: #0175B0;
-    background: #0175B0;
-}
-ul.social-icons li.pinterest:hover {
-    border-color: #BE0719;
-    background: #BE0719;
-}
+
 .page-head {
     position: relative;
     padding: 100px 0;
@@ -161,65 +121,8 @@ ul.social-icons li.pinterest:hover {
     color: #fff;
     text-transform: uppercase;
 }
-.page-head .breadcrumb {
-    background: transparent;
-    padding: 0;
-}
-.page-head .breadcrumb a,
-.page-head .breadcrumb {
-    color: #fff;
-}
-.page-head .breadcrumb a:hover {
-    text-decoration: none;
-}
-.page-head .breadcrumb>li+li:before {
-    color: #fff;
-}
-.pagination {
-    margin: 40px 0 20px;
-}
-.pagination>li>a,
-.pagination>li>span {
-    padding: 8px 15px;
-    color: #bf095d;
-    border-color: #bf095d;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover,
-.pagination>.active>span,
-.pagination>.active>span:focus,
-.pagination>.active>span:hover,
-.pagination>li>a:focus,
-.pagination>li>a:hover,
-.pagination>li>span:focus,
-.pagination>li>span:hover {
-    color: #ffffff;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    background: -moz-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -webkit-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    background: -ms-linear-gradient( -29deg, rgb(193, 15, 65) 0%, rgb(35, 59, 136) 100%);
-    border-color: #bf095d;
-}
-.pagination>li:first-child>a,
-.pagination>li:first-child>span {
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    padding: 8px 20px;
-}
-.pagination>li:last-child>a,
-.pagination>li:last-child>span {
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    padding: 8px 20px;
-}
+
+
 @media (max-width: 991px) {
     .mt-250 {
         margin-top: 125px;
@@ -336,7 +239,7 @@ ul.social-icons li.pinterest:hover {
 }
 .appy-menu ul li a {
     color: #db6d40 !important;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 700;
@@ -547,7 +450,7 @@ ul.social-icons li.pinterest:hover {
 #home_banner p {
     font-size: 35px;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     margin: 20px 0 30px;
 }
 #home_banner .btn {
@@ -590,52 +493,33 @@ ul.social-icons li.pinterest:hover {
 
 
 /*--------------Galerie Photo-------------------*/
-#testimonial {
+#galerie {
     position: relative;
 }
 
-#testimonial .testimonial-slider {}
+#galerie .testimonial-slider {
 
-#testimonial .testimonial-slider .item p {
-    font-size: 16px;
-    font-weight: 300;
-    color: #fff;
-    line-height: 30px;
-    margin-bottom: 30px;
-    font-style: italic;
 }
 
-#testimonial .testimonial-slider .item .client-img {
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 3px solid #bf095d;
-}
-
-#testimonial .testimonial-slider .item h4 {
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-}
-
-#testimonial .testimonial-slider .item .client-rate ul li i {
-    color: #fac917;
-}
-
-#testimonial .testimonial-slider .owl-dots {
+#galerie .testimonial-slider .owl-dots {
     margin-top: 20px !important;
 }
 
-#testimonial .testimonial-slider .owl-dots .owl-dot span {
+#galerie .testimonial-slider .owl-dots .owl-dot span {
     background: #fff;
-    width: 13px;
-    height: 13px;
+    width: 20px;
+    height: 20px;
 }
 
-#testimonial .testimonial-slider .owl-dots .owl-dot.active span {
-    background: #bf095d;
+#galerie .testimonial-slider .owl-dots .owl-dot.active span {
+    background: #25a499;
 }
+#galerie img{
+  height: 100%;
+  width: 100%;
+
+}
+
 /*--------------end galerie photo---------------*/
 
 
@@ -677,14 +561,14 @@ ul.social-icons li.pinterest:hover {
     line-height: 70px;
 }
 #reservez .price-table .cost h3 span {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 26px;
 }
 #reservez .price-table ul {
     margin: 0;
 }
 #reservez .price-table ul li {
-    font-size: 20px;
+    font-size: 35px;
     line-height: 50px;
 }
 #reservez .price-table{
