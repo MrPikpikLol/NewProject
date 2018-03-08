@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #2a3b71;
+    color: #25a499;
     font-size: 16px;
     position: relative;
     overflow-x: hidden;
@@ -57,14 +57,14 @@ a:hover {
 }
 
 .btn-default:hover {
-    border-color: #bf095d;
-    background: #bf095d;
+    border-color: #09bf73;
+    background: #09bf73;
     color: #fff;
 }
 
 .btn-default.colored {
-    color: #bf095d;
-    border-color: #bf095d;
+    color: #09bf73;
+    border-color: #09bf73;
 }
 
 .btn-default.colored:hover {
@@ -72,13 +72,13 @@ a:hover {
 }
 
 .btn-default.blue {
-    color: #2a3b71;
-    border-color: #2a3b71;
+    color: #09bf73;
+    border-color: #09bf73;
 }
 
 .btn-default.blue:hover {
     color: #fff;
-    background: #2a3b71;
+    background: #09bf73;
 }
 
 .mt-200 {
@@ -110,8 +110,8 @@ a:hover {
 }
 
 .section-heade h3 {
-    color: #2a3b71;
-    margin: 0;
+    color: #09bf73;
+    margin-bottom: 50px;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 300;
@@ -636,7 +636,7 @@ ul.social-icons li.pinterest:hover {
 #home_banner .btn:hover {
     border-color: #fff;
     background: #fff;
-    color: #bf095d;
+    color: #09bf73;
 }
 
 @media (max-width: 991px) {
@@ -667,3 +667,74 @@ ul.social-icons li.pinterest:hover {
 /*------------------------------
     12. END VIDEO SECTION
 ------------------------------*/
+/*--------------price section-------------------*/
+#reservez .price-table {
+    border: 1px solid #09bf73;
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@media (max-width: 992px) {
+    #reservez .price-table {
+        margin-bottom: 30px;
+    }
+}
+
+#reservez .price-table:hover {
+    background-color: #fff;
+    cursor: pointer;
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+/*--#reservez .price-table:hover .btn-default.blue {
+    color: #fff;
+    background: #09bf73;
+}--*/
+
+#reservez .price-table.feature {
+    color: #295434;
+    border-color: #09bf73;
+    margin-top: 0;
+}
+
+/*--#reservez .price-table.feature:hover .btn-default.colored {
+    color: #fff;
+    background: #09bf73;
+}--*/
+
+#reservez .price-table h4 {
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#reservez .price-table .cost h3 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+#reservez .price-table .cost h3 span {
+    font-size: 30px;
+    line-height: 26px;
+}
+
+#reservez .price-table ul {
+    margin: 0;
+}
+
+#reservez .price-table ul li {
+    font-size: 20px;
+    line-height: 50px;
+}
+#reservez .price-table{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+}
+/*-------------end price section------------------*/
