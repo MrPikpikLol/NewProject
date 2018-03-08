@@ -187,7 +187,13 @@
             });
         }
         /*END RECENT BLOG SLIDER JS*/
-
+        wow = new WOW(
+                      {
+                      boxClass:     'wow',  
+                      offset:       0,
+}
+                    )
+                    wow.init();
 
     });
 
