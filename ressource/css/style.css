@@ -610,7 +610,7 @@ input[type=submit],[type=reset]{
 /*--------------footer-----------*/
 footer {
   margin-top: 100px;
-  background-color: black;
+  background-color: rgb(105, 125, 104);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -620,7 +620,7 @@ footer {
   float: left;
   text-decoration: none;
   list-style: none;
-  display: block;
+  display: inline-block;
 }
 #cgv .foot-right ul li {
   margin-left: 25px;
@@ -628,5 +628,5 @@ footer {
   float: right;
   text-decoration: none;
   list-style: none;
-  display: block;
+  display: inline-block;
 }
