@@ -551,11 +551,13 @@ a:hover {
 }
 #reservez .price-table h4 {
     font-size: 30px;
+    font-weight: 600;
     margin: 0;
     text-transform: uppercase;
 }
 #reservez .price-table .cost h3 {
     margin: 0;
+    color: rgb(24, 101, 62);
     font-size: 100px;
     font-weight: 600;
     line-height: 70px;
@@ -606,3 +608,25 @@ input[type=submit],[type=reset]{
 }
 /*---------end formulaire question----------------*/
 /*--------------footer-----------*/
+footer {
+  margin-top: 100px;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#cgv .foot-left ul li {
+  margin-right: 25px;
+  font-size: 25px;
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+}
+#cgv .foot-right ul li {
+  margin-left: 25px;
+  font-size: 25px;
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+}
