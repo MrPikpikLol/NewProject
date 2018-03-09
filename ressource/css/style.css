@@ -576,6 +576,11 @@ a:hover {
 }
 /*-------------end price section------------------*/
 /*-------------formulaire question----------------*/
+#formulaire h2 {
+
+}
+
+
 .contact-form{
   margin: 0 auto;
 }
@@ -590,7 +595,7 @@ textarea{
   height: 100px;
 }
 input[type=submit],[type=reset]{
-  font-size: 35px;
+  font-size: 30px;
 
   padding: 10px 30px;
 
