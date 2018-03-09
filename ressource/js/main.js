@@ -71,8 +71,7 @@
                       {
                       boxClass:     'wow',
 
-}
-                    )
+                    })
                     wow.init();
 
     });
